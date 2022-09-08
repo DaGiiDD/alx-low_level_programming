@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
-* main - this is the starting point of the program
-* Return: returns 0
+* main - Printing
+*
+* Return: Always 0(Successful)
 */
 int main(void)
 {
