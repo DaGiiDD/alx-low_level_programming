@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more header goes there */
+/* more headers goes there */
 
 /**
  * main - the main function
- * Return: return 0
+ * Return: returns 0
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	int lastDigit;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2; 
 	lastDigit = n % 10;
 	printf("Last digit of %d is ", n);
 	if (lastDigit > 5)
@@ -21,6 +21,6 @@ int main(void)
 	else if (lastDigit == 0)
 		printf("%d and is 0\n", lastDigit);
 	else if (lastDigit < 6 && lastDigit != 0)
-		printf("%d and is less than 6 and not 0\n", lasDigit);
+		printf("%d and is less than 6 and not 0\n", lastDigit);
 	return (0);
 }
