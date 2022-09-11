@@ -1,24 +1,23 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more header gors there */
+/* more headers goes there */
 
 /**
- * main - the man function
- * Return: return 0
+ * main - the main function
+ * Return: returns 0
  */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() - Rand_Max / 2;
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%d is postive\n", n);
+		printf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else if (n < 0)
-		printf(%d is negative\n", n);
+		printf("%d is negative\n", n);
 	return (0);
 }
-
