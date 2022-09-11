@@ -1,14 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
- *
- * Description: using the main function
- * this program prints "Programming is like bulidinga multilingual puzzle"
- * Return: 0
+ * main - this is the strating point of the program
+ * Return: returns 0
  */
 int main(void)
 {
-	print("with proper grammer, but the outcome is a piece of art,\n");
+	printf("with proper grammer, but the outcome is a piece of art,\n");
 	return (0);
 }
